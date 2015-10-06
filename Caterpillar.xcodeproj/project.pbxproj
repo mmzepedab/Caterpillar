@@ -94,6 +94,7 @@
 		BC5399DA1A44DCC90063F482 /* GLActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D51A44DCC90063F482 /* GLActivityKit.framework */; };
 		BC5399DB1A44DCC90063F482 /* JavaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D61A44DCC90063F482 /* JavaFoundation.framework */; };
 		BC5399DC1A44DCC90063F482 /* JavaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D71A44DCC90063F482 /* JavaKit.framework */; };
+		D260D27B1BC3959C0006D0F7 /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D260D27A1BC3959C0006D0F7 /* MainMenu.m */; settings = {ASSET_TAGS = (); }; };
 		D2E857481BAD108E00A96542 /* Page1.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E857471BAD108E00A96542 /* Page1.m */; settings = {ASSET_TAGS = (); }; };
 		D2E8574F1BAD1ECE00A96542 /* Caterpillar.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E8574E1BAD1ECE00A96542 /* Caterpillar.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -214,6 +215,8 @@
 		BC5399D51A44DCC90063F482 /* GLActivityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLActivityKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/GLActivityKit.framework"; sourceTree = "<group>"; };
 		BC5399D61A44DCC90063F482 /* JavaFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaFoundation.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaFoundation.framework"; sourceTree = "<group>"; };
 		BC5399D71A44DCC90063F482 /* JavaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaKit.framework"; sourceTree = "<group>"; };
+		D260D2791BC3959C0006D0F7 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		D260D27A1BC3959C0006D0F7 /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
 		D2E857461BAD108E00A96542 /* Page1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1.h; sourceTree = "<group>"; };
 		D2E857471BAD108E00A96542 /* Page1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page1.m; sourceTree = "<group>"; };
 		D2E8574D1BAD1ECE00A96542 /* Caterpillar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caterpillar.h; sourceTree = "<group>"; };
@@ -445,6 +448,8 @@
 				7A40362019DDEF0D007B6E8F /* Platforms */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
+				D260D2791BC3959C0006D0F7 /* MainMenu.h */,
+				D260D27A1BC3959C0006D0F7 /* MainMenu.m */,
 				D352B48019EC608A00829775 /* MetalShaders */,
 				D2E857461BAD108E00A96542 /* Page1.h */,
 				D2E857471BAD108E00A96542 /* Page1.m */,
@@ -831,6 +836,7 @@
 				B73789871807631A0076A88C /* main.m in Sources */,
 				7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
+				D260D27B1BC3959C0006D0F7 /* MainMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
